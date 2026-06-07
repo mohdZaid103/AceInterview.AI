@@ -1,13 +1,11 @@
-import React from 'react'
-import { BsRobot } from 'react-icons/bs'
+import React from "react";
+import { BsRobot } from "react-icons/bs";
 
 function Footer() {
   return (
     <footer className="bg-slate-950 px-4 py-12">
       <div className="max-w-6xl mx-auto">
-
         <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/80 backdrop-blur-xl px-8 py-12 text-center">
-
           {/* Glow Effects */}
           <div className="absolute -top-20 -left-20 h-40 w-40 rounded-full bg-blue-500/10 blur-3xl" />
           <div className="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-violet-500/10 blur-3xl" />
@@ -38,11 +36,16 @@ function Footer() {
             © {new Date().getFullYear()} AceInterview.AI. Built for aspiring
             professionals and future innovators.
           </p>
-
+        </div>
+        <div className="flex flex-wrap justify-center gap-6 mt-6 text-sm text-slate-400">
+          <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link to="/terms-and-conditions">Terms</Link>
+          <Link to="/refund-policy">Refund Policy</Link>
+          <Link to="/contact-us">Contact Us</Link>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

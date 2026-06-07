@@ -39,6 +39,10 @@ function App() {
       
       <Route path='/pricing' element={<Pricing/>}/>
       <Route path='/report/:id' element={<InterviewReport/>}/>
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+<Route path="/terms-and-conditions" element={<TermsConditions />} />
+<Route path="/refund-policy" element={<RefundPolicy />} />
+<Route path="/contact-us" element={<ContactUs />} />
     </Routes>
   )
 }
