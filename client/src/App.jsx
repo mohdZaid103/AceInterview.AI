@@ -10,7 +10,10 @@ import InterviewPage from './pages/InterviewPage'
 import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
- 
+import PrivacyPolicy from './pages/PrivacyPolicy'
+ import TermsConditions from './pages/TermsConditions'
+import RefundPolicy from './pages/RefundPolicy'
+ import ContactUs from './pages/ContactUs'
 export const ServerUrl  = "https://aceinterview-ai-m2k3.onrender.com"
 
 function App() {
